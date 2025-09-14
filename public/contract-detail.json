@@ -1,0 +1,23 @@
+{
+  "id": "c1",
+  "name": "MSA 2025",
+  "parties": "Microsoft & ABC Corp",
+  "start": "2023-01-01",
+  "expiry": "2025-12-31",
+  "status": "Active",
+  "risk": "Medium",
+  "clauses": [
+    { "id": "cl1", "title": "Termination for Convenience", "summary": "Either party may terminate with 90 days written notice.", "confidence": 0.95 },
+    { "id": "cl2", "title": "Limitation of Liability", "summary": "Total liability is capped at the total fees paid in the preceding 12 months.", "confidence": 0.87 },
+    { "id": "cl3", "title": "Data Privacy", "summary": "Both parties must comply with GDPR and CCPA regulations.", "confidence": 0.91 }
+  ],
+  "insights": [
+    { "id": "in1", "risk": "High", "message": "The liability cap does not explicitly exclude damages from data breaches, creating significant financial risk." },
+    { "id": "in2", "risk": "Medium", "message": "The contract auto-renews for 12-month periods unless cancelled 60 days prior to the expiry date." },
+    { "id": "in3", "risk": "Low", "message": "Termination notice period of 90 days is standard for an agreement of this scope." }
+  ],
+  "evidence": [
+    { "id": "ev1", "source": "Section 12.2", "snippet": "...the total aggregate liability of either party... shall not exceed the total fees paid...", "relevance": 0.91 },
+    { "id": "ev2", "source": "Section 4.1", "snippet": "This Agreement shall automatically renew for successive one (1) year terms...", "relevance": 0.85 }
+  ]
+}
