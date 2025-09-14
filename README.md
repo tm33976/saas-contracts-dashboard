@@ -54,13 +54,37 @@ Follow these steps to run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/tm33976/saas-contracts-dashboard.git
 
 # 2. Navigate into the project directory
-cd your-repo-name
+cd saas-contracts-dashboard
 
 # 3. Install dependencies
 npm install
 
 # 4. Start the development server
-npm run dev
+npm run dev 
+```
+---
+
+## 📝 Project Assumptions
+
+- **Mock API** – Runs on static JSON files to simulate backend responses.
+
+- **Authentication** – A front-end simulation to demonstrate UI and navigation flow (not a secure auth service).
+
+- **Deployment** – Dashboard is publicly accessible, with the login page available at /login.
+
+---
+
+## 📫 Get In Touch
+
+Thank you for taking the time to review my project! 
+
+I’m passionate about front-end development and building great user experiences, and I’d love to hear your feedback.
+
+**🧑‍💻 Tushar Mishra**
+
+**📧 Email**: tm3390782@gmail.com
+
+
