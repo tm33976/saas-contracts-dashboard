@@ -8,7 +8,7 @@ This project is a clean, modern, and responsive single-page application that sim
 
 ## 🚀 Live Demo
 Check out the live version of the app here:  
-[👉 Deployed Link (Vercel/Netlify)](https://your-deployment-link.com)
+[👉 Deployed Link (Vercel)](https://saas-dashboard-coral-omega.vercel.app/)
 
 ---
 
